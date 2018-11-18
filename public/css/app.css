@@ -5,6 +5,89 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+ /* paddings*/
+
+.navbar{
+    margin-bottom: 0px;
+}
+
+.no-margin{
+  margin: 0px!important;
+}
+
+.no-padding{
+  padding: 0px !important;
+}
+
+.no-transform{
+  text-transform: none !important;
+}
+
+ .big_padding{
+   padding: 30px;
+ }
+
+ /* colors */
+
+ .blue-grey{
+   background-color: #37474f;
+ }
+ .white{
+   background-color: white;
+
+ }
+ .white-text{
+   color:white;
+ }
+
+ .red-text{
+   color: rgb(200,50,50)!important;
+ }
+
+ .inline-block{
+   display: inline-block !important;
+ }
+
+ .table{
+   background-color: white;
+ }
+
+ .absolute{
+   position: absolute;
+   right:2em;
+ }
+
+ .floating {
+   position: fixed;
+   bottom:2em;
+   right:2em;
+   z-index: 100;
+ }
+
+.product{
+  width: 500px;
+  max-width: 100%;
+  padding:1em;
+  position:relative;
+  h1 {
+    padding-bottom: 10px;
+    border-bottom:solid 1px;
+  }
+  .actions{
+    right: 1em;
+    top:10px;
+  }
+}
+
+.btn_carrito{
+  position: absolute;
+  top:2em;
+  right:15em;
+  z-index: 100;
+}
+
+
+
 :root {
   --blue: #3490dc;
   --indigo: #6574cd;
@@ -10465,8 +10548,3 @@ a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
-
-body {
-  background-color: red !important;
-}
-
